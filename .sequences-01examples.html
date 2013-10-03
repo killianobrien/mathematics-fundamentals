@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Killian O'Brien" />
+  <title>6G4Z3001_1314 \\ Mathematics Fundamentals</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+   href="mycss.css" />
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script src="https://sagecell.sagemath.org/static/jquery.min.js"></script>
+      <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+      <script>$(function () {
+      // Make the div with id 'mycell' a Sage cell
+      sagecell.makeSagecell({inputLocation:  '#mycell',
+                             template:       sagecell.templates.minimal,
+                             evalButtonText: 'Activate'});
+      // Make *any* div with class 'compute' a Sage cell
+      sagecell.makeSagecell({inputLocation: 'div.compute',
+                             evalButtonText: 'Evaluate'});
+      });
+      </script>
+  	<link rel="stylesheet" type="text/css" href="https://sagecell.sagemath.org/static/sagecell_embed.css">
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js.gz"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">6G4Z3001_1314 \\ Mathematics Fundamentals</h1>
+  <p class="author">
+Killian O'Brien
+  </p>
+  <p class="date">Oct 2013</p>
+</div>
+<div id="examples" class="titleslide slide section level1"><h1>Examples</h1></div><div id="increasing-decreasing" class="slide section level2">
+<h1>Increasing / decreasing</h1>
+<p>Try the difference or ratio method (or both) on the following sequences to determine their increasing/decreasing nature</p>
+<ul>
+<li><span class="math">\(\left \{ y_n \right \}\)</span> where <span class="math">\(y_n = \frac{1}{\sqrt{n^2+1} - n}\)</span></li>
+<li><span class="math">\(\left \{ s_n \right \}\)</span> where <span class="math">\(s_n = \frac{3n}{4n+1}\)</span>.</li>
+<li><span class="math">\(\left \{ x_n \right \}\)</span> where <span class="math">\(x_n = \frac{2^n}{3^n - 4}\)</span>.</li>
+<li><span class="math">\(\left \{ f_n \right \}\)</span> where <span class="math">\(f_n = \frac{n^2}{2^n}\)</span></li>
+</ul>
+<p>Confirm this behaviour and investigate their convergence using the Sage cell ...</p>
+<div class="compute"><script type="text/x-sage">
+list_plot([(5^n)/factorial(n) for n in range(5)])
+</script></div>
+
+
+
+<p><!--- 
+ <div class="compute"><script type="text/x-sage"><div class="compute"><script type="text/x-sage">
+@interact
+def tline(ep=slider(0.0001,4,0.1,0)):
+          p=plot(sin(x), (x, 0, 2*pi));
+          a=pi/2;
+          u=a+ep;
+          slope=(sin(u)-sin(a))/(u-a);
+          q=plot(slope*(x-pi/2)+sin(pi/2), (x,0,2*pi), color='red');
+          (p+q).show();
+</script></div> </script></div> 
+
+
+
+ ---></p>
+</div>
+</body>
+</html>
