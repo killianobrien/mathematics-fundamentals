@@ -1,9 +1,9 @@
 % 6G4Z3001_1314 \\\\ Mathematics Fundamentals
 % Killian O'Brien
 % Oct 2013
-# Examples
+# Sequences \\\\ Examples
 
-## Increasing / decreasing
+## Sequences \\\\ Examples \\\\ Increasing / decreasing
 
 Try the difference or ratio method (or both) on the following sequences to determine their increasing/decreasing nature
 
