@@ -21,7 +21,7 @@ The number $M$ is called the (*upper / lower*) *bound*, as appropriate.
 
 ### Definition 1.5 (*Informal def. of convergence*)
 Let L be a number. A sequence $\left \{ x_n \right \}$ *converges* to the *limit* $L$ if as $n$ increases, the
-elements of the sequence get closer and closer to the number $L$, or equivalently, the distance $ \left | x_n - L \right |$ gets closer and closer to $0$. 
+elements of the sequence get closer and closer to the number $L$, or equivalently, the distance $\left | x_n - L \right |$ gets closer and closer to $0$. 
 
 ### Notation and phrasing 
 
@@ -101,7 +101,7 @@ The sequence $\left \{ x_n \right \}$ *converges* to the *limit* $L$ if given an
 
 This definition is saying that $\left \{ x_n \right \}$ converges to $L$ if for all small positive distances $\epsilon$, the sequence eventually (for all $n \geq N_\epsilon$ ) lies within a distance $\epsilon$ of the limit $L$.
 
-Evaluatethe  [Sage](http://www.sagemath.org) cell below and use the resulting interact to visualize the way the definition works.
+Evaluate the [Sage](http://www.sagemath.org) cell below and use the resulting interact to visualize the way the definition works.
 
 <div class="compute"><script type="text/x-sage">
 html("<h2>Investigating sequence convergence</h2>")
