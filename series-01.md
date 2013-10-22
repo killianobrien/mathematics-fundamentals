@@ -3,6 +3,10 @@
 % Oct 2013
 # Series 01
 
+## Series \\\\ Introduction
+
+Work through chapter 2 in the notes up to Example 2.3 on the harmonic series. 
+
 ## Series \\\\ Stacking blocks
 
 Let $h_n$ denote the overhang of this optimal simple stack of $n$ blocks, each of width $w$. The overhang $h_n$ is measured from the rightmost edge of the top block back to the rightmost edge of the bottom block.
