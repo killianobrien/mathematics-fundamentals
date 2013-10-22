@@ -104,6 +104,12 @@ Such a stack would be $3.0 \times 10^{34} \times 0.015 \approx 4.6 \times 10^{32
 
 $4.6 \times 10^{32}$ metres is approximately $520 \, 000$ times the diameter of the observable universe.
 
+### Further reading
+
+Read more about better overhangs that can be achieved with more complicated stacking strategies in the article 
+
+*Overhang*, by Mike Paterson and Uri Zwick, The American Mathematical Monthly , Vol. 116, No. 1 (Jan., 2009), pp. 19-44. Available from [JSTOR](http://www.jstor.org/stable/27642662)
+
 
 
  <!--- 
