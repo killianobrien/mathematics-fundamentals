@@ -9,7 +9,7 @@ Recall from previous lecture ...
 
 ### Definition 2.3 (Convergence for series)
 
-The series $\sum_{n=1}^\infty x_n$ \emph{converges} to the limit (or sum) $L$ if the sequence of its partial sums, $\{ S_k \}_{k=1}^\infty$, is a convergent sequence and 
+The series $\sum_{n=1}^\infty x_n$ *converges* to the limit (or sum) $L$ if the sequence of its partial sums, $\{ S_k \}_{k=1}^\infty$, is a convergent sequence and 
 $$ \lim_{k \to \infty} S_k = L . $$
 If this is the case then we can simply write
 $$ \sum_{n=1}^\infty x_n = L .$$
@@ -22,13 +22,13 @@ Interesting examples were:
 $$
 \sum_{n=1}^\infty \left ( \frac{1}{2} \right )^n = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \dots ,
 $$
-which is convergent.
+which is convergent, with sum 1.
 
 * The harmonic series 
 $$
 \sum_{n=1}^\infty \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \dots ,
 $$
-which is divergent.
+which is divergent, as it increases without upper bound.
 
 We aim now to describe various results that can detect convergence/divergence for certain series.
 
@@ -120,7 +120,7 @@ And after doing lots of mathematics, watch Leonard Bernstein explain the harmoni
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/iDTj6tBnHlA" frameborder="0" allowfullscreen></iframe>
 
-And then enjoy Bernstein rehearsing Carreras, singing *Maria* from Sondheim & Bernstein's *West Side Story*.
+And then enjoy Bernstein conducting Carreras, singing *Maria* from Sondheim & Bernstein's *West Side Story*.
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/3ZPA8fwp7PE" frameborder="0" allowfullscreen></iframe>
 

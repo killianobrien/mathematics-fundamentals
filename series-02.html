@@ -38,29 +38,29 @@ Killian O'Brien
   </p>
   <p class="date">Oct 2013</p>
 </div>
-<div id="series-02" class="titleslide slide section level1"><h1>Series 02</h1></div><div id="series-convergence" class="slide section level2">
+<div class="section titleslide slide level1" id="series-02"><h1>Series 02</h1></div><div class="section slide level2" id="series-convergence">
 <h1>Series \\ Convergence</h1>
 <p>Recall from previous lecture ...</p>
 <h3 id="definition-2.3-convergence-for-series">Definition 2.3 (Convergence for series)</h3>
-<p>The series <span class="math">\(\sum_{n=1}^\infty x_n\)</span>  to the limit (or sum) <span class="math">\(L\)</span> if the sequence of its partial sums, <span class="math">\(\{ S_k \}_{k=1}^\infty\)</span>, is a convergent sequence and <span class="math">\[ \lim_{k \to \infty} S_k = L . \]</span> If this is the case then we can simply write <span class="math">\[ \sum_{n=1}^\infty x_n = L .\]</span></p>
+<p>The series <span class="math">\(\sum_{n=1}^\infty x_n\)</span> <em>converges</em> to the limit (or sum) <span class="math">\(L\)</span> if the sequence of its partial sums, <span class="math">\(\{ S_k \}_{k=1}^\infty\)</span>, is a convergent sequence and <span class="math">\[ \lim_{k \to \infty} S_k = L . \]</span> If this is the case then we can simply write <span class="math">\[ \sum_{n=1}^\infty x_n = L .\]</span></p>
 <p>A series is <em>divergent</em> if the sequence of its partial sums is a divergent sequence.</p>
 <p>Interesting examples were:</p>
 <ul>
 <li><p>The sum of powers of <span class="math">\(\frac{1}{2}\)</span>, <span class="math">\[
 \sum_{n=1}^\infty \left ( \frac{1}{2} \right )^n = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \dots ,
-\]</span> which is convergent.</p></li>
+\]</span> which is convergent, with sum 1.</p></li>
 <li><p>The harmonic series <span class="math">\[
 \sum_{n=1}^\infty \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \dots ,
-\]</span> which is divergent.</p></li>
+\]</span> which is divergent, as it increases without upper bound.</p></li>
 </ul>
 <p>We aim now to describe various results that can detect convergence/divergence for certain series.</p>
-</div><div id="series-linear-combinations" class="slide section level2">
+</div><div class="section slide level2" id="series-linear-combinations">
 <h1>Series \\ Linear combinations</h1>
 <p>Thge following theorem provides a similar result to the linearity case of the algebra of limits theorem for sequences from Chapter 1.</p>
 <h3 id="theorem-2.2-linear-combinations-of-convergent-series">Theorem 2.2 (Linear combinations of convergent series)</h3>
 <p>Suppose that we have two convergent series <span class="math">\(\sum_{m=1}^\infty  a_m\)</span> and <span class="math">\(\sum_{m=1}^\infty b_m\)</span> such that <span class="math">\[ \sum_{m=1}^\infty a_m = A , \text{ and } \sum_{m=1}^\infty b_m = B .\]</span> Then for any pair <span class="math">\(\alpha, \beta \in \mathbb{R}\)</span> we have a new series <span class="math">\[ \sum_{m=1}^\infty \left ( \alpha a_m + \beta b_m \right ) ,\]</span> which is convergent and satisfies <span class="math">\[ \sum_{m=1}^\infty \left ( \alpha a_m + \beta b_m \right ) = \alpha A + \beta B.\]</span></p>
 <p><em>Proof</em>. See visualizer.</p>
-</div><div id="series-convergence-tests-sec.-2.3" class="slide section level2">
+</div><div class="section slide level2" id="series-convergence-tests-sec.-2.3">
 <h1>Series \\ Convergence tests (sec. 2.3)</h1>
 <h3 id="theorem-2.3-general-term-test">Theorem 2.3 (General term test)</h3>
 <p>If a sequence has a non-zero limit (or no limit at all) then the associated series will diverge.</p>
@@ -72,7 +72,7 @@ Killian O'Brien
 <li><p><span class="math">\[ \sum_{m=1}^\infty a_m \text{ converges} \, \Rightarrow \, \lim_{m \to \infty} a_m = 0.\]</span></p></li>
 </ol>
 <p><span class="math">\(Proof\)</span>. See visualizer.</p>
-</div><div id="series-convergence-tests-sec.-2.3-1" class="slide section level2">
+</div><div class="section slide level2" id="series-convergence-tests-sec.-2.3-1">
 <h1>Series \\ Convergence tests (sec. 2.3)</h1>
 <h3 id="theorem-2.4-geometric-series-test">Theorem 2.4 (Geometric series test)</h3>
 <p>The geometric series <span class="math">\(\sum_{n=1}^\infty a r^{n-1}\)</span> converges trivially if <span class="math">\(a=0\)</span>. If <span class="math">\(a \neq 0\)</span> then it converges if and only if <span class="math">\(|r| &lt; 1\)</span>, in which case <span class="math">\[ \sum_{n=1}^\infty a r^{n-1} = \frac{a}{1-r} .\]</span></p>
@@ -108,7 +108,7 @@ def geometric_series_plotter(a = input_box(label="\(a = \)",default=5), r = inpu
     show(P) #displays the plot
 </script></div>
 
-</div><div id="series-your-work-on-this-topic" class="slide section level2">
+</div><div class="section slide level2" id="series-your-work-on-this-topic">
 <h1>Series \\ Your work on this topic</h1>
 <ul>
 <li>Read through the notes - Chapter 2 up to theorem 2.4 (Geometric Series Test)</li>
@@ -120,7 +120,7 @@ def geometric_series_plotter(a = input_box(label="\(a = \)",default=5), r = inpu
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/iDTj6tBnHlA" frameborder="0" allowfullscreen></iframe>
 
-<p>And then enjoy Bernstein rehearsing Carreras, singing <em>Maria</em> from Sondheim &amp; Bernstein's <em>West Side Story</em>.</p>
+<p>And then enjoy Bernstein conducting Carreras, singing <em>Maria</em> from Sondheim &amp; Bernstein's <em>West Side Story</em>.</p>
 <iframe width="640" height="480" src="http://www.youtube.com/embed/3ZPA8fwp7PE" frameborder="0" allowfullscreen></iframe>
 
 
