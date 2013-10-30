@@ -120,7 +120,7 @@ And after doing lots of mathematics, watch Leonard Bernstein explain the harmoni
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/iDTj6tBnHlA" frameborder="0" allowfullscreen></iframe>
 
-And then enjoy Bernstein rehearsing Carreras singing of *Maria* from Sondheim & Bernstein's *West Side Story*.
+And then enjoy Bernstein rehearsing Carreras, singing *Maria* from Sondheim & Bernstein's *West Side Story*.
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/3ZPA8fwp7PE" frameborder="0" allowfullscreen></iframe>
 
